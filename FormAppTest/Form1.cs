@@ -30,32 +30,11 @@ namespace FormAppTest
         }
         private void button1_Click(object sender, EventArgs e)
         {
-           /* model = new Model();
+            model = new Model();
             model.setBOMsFromPath(urlsBOM);
-            model.showAllBOMs();
             String[][] firstBOM = model.getFirstBOM();
 
-            var rowCount = firstBOM.GetLength(0);
-            var rowLength = firstBOM[0].GetLength(0);
-
-            for (int i = 0; i < rowLength; i++) dataGridView1.Columns.Add(new DataGridViewColumn());
-
-            List<DataGridViewRow> rows = new List<DataGridViewRow>();
-            for (int rowIndex = 0; rowIndex < rowCount; ++rowIndex)
-            {
-                var row = new DataGridViewRow();
-
-                for (int columnIndex = 0; columnIndex < rowLength; ++columnIndex)
-                {
-                    row.Cells.Add(new DataGridViewTextBoxCell()
-                    {
-                        Value = firstBOM[rowIndex][columnIndex]
-                    });
-                }
-                rows.Add(row);
-            }
-            dataGridView1.Rows.AddRange(rows.ToArray());*/
-            BomInit firstBOMView = new BomInit();
+            BomInit firstBOMView = new BomInit(firstBOM);
             firstBOMView.Show();
 
         }

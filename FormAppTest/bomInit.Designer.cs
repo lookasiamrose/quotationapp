@@ -44,6 +44,7 @@
             this.bomViewGrid.ReadOnly = true;
             this.bomViewGrid.Size = new System.Drawing.Size(478, 431);
             this.bomViewGrid.TabIndex = 0;
+            this.bomViewGrid.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bomViewGrid_CellDoubleClick);
             // 
             // BomInit
             // 
@@ -53,6 +54,8 @@
             this.Controls.Add(this.bomViewGrid);
             this.Name = "BomInit";
             this.Text = "BOM View";
+            this.Load += new System.EventHandler(this.BomInit_Load);
+            this.Shown += new System.EventHandler(this.BomInit_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.bomViewGrid)).EndInit();
             this.ResumeLayout(false);
 
