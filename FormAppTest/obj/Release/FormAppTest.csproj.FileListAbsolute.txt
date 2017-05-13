@@ -1,0 +1,11 @@
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\bin\Release\FormAppTest.exe.config
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\obj\Release\FormAppTest.csproj.ResolveComReference.cache
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\bin\Release\FormAppTest.exe
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\bin\Release\FormAppTest.pdb
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\obj\Release\FormAppTest.Form1.resources
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\obj\Release\FormAppTest.Properties.Resources.resources
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\obj\Release\FormAppTest.csproj.GenerateResource.Cache
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\obj\Release\FormAppTest.exe
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\obj\Release\FormAppTest.pdb
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\obj\Release\FormAppTest.csprojResolveAssemblyReference.cache
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\obj\Release\FormAppTest.BomInit.resources

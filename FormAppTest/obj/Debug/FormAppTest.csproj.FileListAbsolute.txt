@@ -1,0 +1,22 @@
+C:\Users\lukasz.jamroz\Downloads\Study\Network Technologies\crc\crc\FormAppTest\FormAppTest\bin\Debug\FormAppTest.exe.config
+C:\Users\lukasz.jamroz\Downloads\Study\Network Technologies\crc\crc\FormAppTest\FormAppTest\bin\Debug\FormAppTest.exe
+C:\Users\lukasz.jamroz\Downloads\Study\Network Technologies\crc\crc\FormAppTest\FormAppTest\bin\Debug\FormAppTest.pdb
+C:\Users\lukasz.jamroz\Downloads\Study\Network Technologies\crc\crc\FormAppTest\FormAppTest\obj\Debug\FormAppTest.csprojResolveAssemblyReference.cache
+C:\Users\lukasz.jamroz\Downloads\Study\Network Technologies\crc\crc\FormAppTest\FormAppTest\obj\Debug\FormAppTest.Properties.Resources.resources
+C:\Users\lukasz.jamroz\Downloads\Study\Network Technologies\crc\crc\FormAppTest\FormAppTest\obj\Debug\FormAppTest.csproj.GenerateResource.Cache
+C:\Users\lukasz.jamroz\Downloads\Study\Network Technologies\crc\crc\FormAppTest\FormAppTest\obj\Debug\FormAppTest.exe
+C:\Users\lukasz.jamroz\Downloads\Study\Network Technologies\crc\crc\FormAppTest\FormAppTest\obj\Debug\FormAppTest.pdb
+C:\Users\lukasz.jamroz\Downloads\Study\Network Technologies\crc\crc\FormAppTest\FormAppTest\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\lukasz.jamroz\Downloads\Study\Network Technologies\crc\crc\FormAppTest\FormAppTest\obj\Debug\FormAppTest.csproj.ResolveComReference.cache
+C:\Users\lukasz.jamroz\Downloads\Study\Network Technologies\crc\crc\FormAppTest\FormAppTest\obj\Debug\FormAppTest.Form1.resources
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\bin\Debug\FormAppTest.exe.config
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\obj\Debug\FormAppTest.csproj.ResolveComReference.cache
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\obj\Debug\FormAppTest.exe
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\obj\Debug\FormAppTest.pdb
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\obj\Debug\FormAppTest.csprojResolveAssemblyReference.cache
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\obj\Debug\FormAppTest.Form1.resources
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\obj\Debug\FormAppTest.Properties.Resources.resources
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\obj\Debug\FormAppTest.csproj.GenerateResource.Cache
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\bin\Debug\FormAppTest.exe
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\bin\Debug\FormAppTest.pdb
+C:\Users\lukasz.jamroz\Desktop\FormAppTest\FormAppTest\obj\Debug\Interop.Microsoft.Office.Core.dll
