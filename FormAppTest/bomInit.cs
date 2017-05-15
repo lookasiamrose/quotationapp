@@ -65,23 +65,40 @@ namespace FormAppTest
                 if (e.RowIndex != -1) //check if not the header
                 {
                     if ((sender as DataGridView).CurrentCell != null && (sender as DataGridView).CurrentCell.Value != null) //check if the cell exists
-                        MessageBox.Show((sender as DataGridView).CurrentCell.Value.ToString());
+                    {
+                        //MessageBox.Show((sender as DataGridView).CurrentCell.Value.ToString());
+                        DialogResult result = MessageBox.Show("Sure to take " + (sender as DataGridView).CurrentCell.Value.ToString() + " as a \"group by\" header?",
+                            "", MessageBoxButtons.YesNo);
+                        if (result == DialogResult.Yes){
+                            this.Close();
+                        }
+                    }
+
                 }
             }
         }
 
         private void BomInit_Shown(object sender, EventArgs e)
         {
+            this.CenterToScreen();
             MessageBox.Show("Perform double click on the header to choose the 'group by' entity", "Step 1", MessageBoxButtons.OK, MessageBoxIcon.Question);
         }
 
         private void BomInit_Load(object sender, EventArgs e)
         {
-            /*
-            this.MinimumSize = new System.Drawing.Size(this.Width, this.Height);
-            this.AutoSize = true;
-            this.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-             */
-        }
+            int totalWidth = this.Width; 
+            if (bomViewGrid.Columns.Count > 0)  //start from zero if dataviewgrid exists properly
+                totalWidth = 0;
+            for (int i = 0; i < bomViewGrid.Columns.Count; i++) //way to calculate total dataviewgrid width
+            {
+                bomViewGrid.Columns[i].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCellsExceptHeader;
+                int width = bomViewGrid.Columns[i].Width;
+                bomViewGrid.Columns[i].AutoSizeMode = DataGridViewAutoSizeColumnMode.None;
+                bomViewGrid.Columns[i].Width = width;
+                totalWidth += width;
+            }
+            totalWidth += 25; //some right padding
+            this.Width = totalWidth;
+        } 
     }
 }
