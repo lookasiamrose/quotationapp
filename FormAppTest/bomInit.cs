@@ -13,14 +13,20 @@ namespace FormAppTest
 {
     public partial class BomInit : Form
     {
+        private enum Options { GROUPBY, SUM };
+        Options currentOption;
+
         public BomInit()
         {
             InitializeComponent();
+            gridInit();
+            currentOption = Options.GROUPBY;
         }
         public BomInit(String[][] bomArg)
         {
             InitializeComponent();
             gridInit();
+            currentOption = Options.GROUPBY;
 
             List<DataGridViewRow> rows = getDataGridRowsFromBOM(bomArg);
             for (int i = 0; i < rows.ElementAt(0).Cells.Count; i++) bomViewGrid.Columns.Add(new DataGridViewColumn());
@@ -70,7 +76,7 @@ namespace FormAppTest
                         DialogResult result = MessageBox.Show("Sure to take " + (sender as DataGridView).CurrentCell.Value.ToString() + " as a \"group by\" header?",
                             "", MessageBoxButtons.YesNo);
                         if (result == DialogResult.Yes){
-                            this.Close();
+                            currentOption++;
                         }
                     }
 
